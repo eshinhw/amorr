@@ -1,0 +1,202 @@
+[
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 3,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  },
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 5,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  },
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 5,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  },
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 5,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  },
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 2,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  },
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 5,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  },
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 5,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  },
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 3.7,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  },
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 4,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  },
+  {
+    "customerId": {
+      "$oid": "62e341e2a0665d709ce2d7fe"
+    },
+    "providerId": {
+      "$oid": "62cfba412377caca02c6d2eb"
+    },
+    "reviewContent": "Sample review",
+    "rating": 2,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1609554904000"
+      }
+    }
+  }
+]

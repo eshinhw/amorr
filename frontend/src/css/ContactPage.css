@@ -1,0 +1,55 @@
+.form-control-textarea {
+    width: 600px;
+    height: 150px;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edf5f3;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.d-flex {
+    padding-left: 30px;
+}
+
+.mb-5 {
+    height: auto;
+    background-color: #e27b7b;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.color_sec {
+    text-decoration: underline;
+}
+
+.form-control {
+    outline: none;
+    border: none;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edf5f3;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.form-control-textarea::placeholder {
+    color: grey;
+}
+
+.btn-primary {
+    border: none;
+    background-color:#e27b7b;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    width: 150px;
+}
+
+.t_border {
+    background-color: black;
+    outline: none;
+}

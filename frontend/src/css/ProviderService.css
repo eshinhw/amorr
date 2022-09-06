@@ -1,0 +1,78 @@
+.provider-service {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20pt;
+}
+
+.center {
+    justify-content: center;
+}
+
+.serviceCard {
+    border-radius: 15pt;
+    text-align: center;
+    width: 100%;
+    min-height: 300pt;
+    height: auto;
+}
+
+.service-background-color {
+    background-color: rgb(255, 241, 241);
+}
+
+.provider-service-half {
+    width: 50%;
+}
+
+.In90 {
+    width: 90%;
+}
+
+.rdn {
+    width: 90% !important;
+}
+
+.service-block {
+    display: flex;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    margin-top: 20px;
+    background-color: pink;
+    border-radius: 15px;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.service-block:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.service-block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.service-block-text h3 {
+    color: #000;
+    margin: 0;
+    font-size: 24px;
+    overflow: auto;
+}
+
+.service-block-text p {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 0;
+    overflow: auto;
+}
+
+.provider-service-icon{
+    padding: 5pt 10pt 5pt 5pt;
+    cursor: pointer;
+    float: right;
+}

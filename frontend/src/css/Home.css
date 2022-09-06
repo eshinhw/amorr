@@ -1,0 +1,174 @@
+.homepage-search {
+  width: 100%;
+}
+
+.home-sb-container {
+  background-color: rgb(255, 228, 232);
+  border-radius: 10px;
+  padding: 50px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-sb-container p {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.sb-container-input {
+  display: flex;
+  justify-content: center;
+}
+
+.sb-button {
+  position: relative;
+  z-index: 100;
+  background-color: #e27b7b;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #e27b7b;
+  padding: 0.5em 1.38em 0.5em;
+  font-weight: 600;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.sb-examples {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  gap: 30px;
+  align-items: center;
+}
+
+#sb-examples-title {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: none;
+}
+.btn-secondary {
+  border-radius: 10px;
+  border: 3px solid #e27b7b;
+  padding: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.sb-input {
+  border: 2px solid #e27b7b;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 50px;
+}
+
+/* Hover Image Annimation Source Below
+https://www.youtube.com/watch?v=exb2ab72Xhs */
+
+.image {
+  position: relative;
+  width: 400px;
+  width: 100%;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  cursor: pointer;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+.image__description {
+  font-size: 2em;
+  margin-top: 0.25em;
+  color: white;
+}
+
+.container-wide {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #efbbbb80;
+  padding: 15px 0;
+}
+
+.container-wide h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ready-to-start-container {
+  display: flex;
+  margin: 0 30%;
+}
+
+.left-ready-to-start-container-border {
+  display: flex;
+  border-right: grey solid 1px;
+}
+
+.left-container {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.right-ready-to-start-container {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.search-header {
+  font-size: 40px;
+  color: #e87070;
+  text-align: center;
+}

@@ -1,0 +1,202 @@
+/*
+this css file is responsible for pages: 
+
+FindJob.js
+SignUpProvider.js
+SignUpProviderTwo.js
+
+*/
+/*FindJob page*/
+.findjob {
+  height: 80vh;
+  width: 100%;
+}
+
+.findjob .findjobleft {
+  font-size: 23pt;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.findjob h1 {
+  width: 100%;
+  margin-left: 50pt;
+}
+
+.findjob .Button {
+  margin-top: 10%;
+  margin-left: 50pt;
+  color: white;
+  background-color: #e27b7b;
+  border-radius: 8px;
+  height: 50pt;
+  width: 50%;
+  border: none;
+}
+
+.findjob .Button:hover {
+  color: white;
+  background-color: #ca1c1c !important;
+}
+
+/*images*/
+.images {
+  height: auto;
+  width: 100%;
+}
+
+/*Animation in findjob page*/
+.amination {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /*
+  width: 100vw;
+  height: 100vh;*/
+  width: 65vw;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  will-change: opacity;
+  margin-top: 87px;
+}
+
+/*SignUpProvider page*/
+.divCenter{
+  display: flex;
+  justify-content: center;
+  padding-top: 10pt;
+  padding-bottom: 30pt;
+}
+
+.Card {
+  min-width: 300pt;
+  width: 40%;
+}
+
+.Form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  width: 100%;
+}
+
+.header {
+	font-size: 40px;
+	margin-top: 0;
+	color: black;
+}
+
+.In {
+	outline: none;
+	border: none;
+	width: 100%;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+  margin: 10px 0 0 0;
+	font-size: 18px;
+}
+
+input::placeholder {
+	color: grey;
+}
+
+/*half input field splitting*/
+.half-input{
+	width: calc(50% - 5px);
+}
+.leftside{
+  margin-right: 10px;
+}
+
+/*input password field, and control of eye icon*/
+.input-pass-container{
+  width: 100%;
+  height: 52px;
+	background-color: #edf5f3;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.password{
+  width: calc(100% - 24pt);
+  margin: 0 ;
+}
+.toggleEye{  
+  padding: 10px 0 10px 0 ;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.Button {
+  font-size: 18pt;
+  color: #e27b7b;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  width: auto;
+  margin-top: 10pt;
+  height: 30pt;
+  box-shadow: 0 0 3px black;
+  cursor: pointer;
+}
+
+.Button:hover {
+  color: #c02121;
+  background-color: #f3dede !important;
+}
+
+/**SignUpProviderTwo page*/
+/*the padding bottom is for image too long, want to cover uploadfile and finish buttons*/
+.twoCard {
+  text-align: center;
+  background-color: #f0f0f0;
+  min-width: 200pt;
+  min-height: 300pt;
+  width: 45%;
+  height:auto;
+  padding-bottom: 30pt;
+}
+.twoForm {
+  font-size: 18pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.twoForm h3{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/*dropdown menu*/
+.rdn {
+  width: 80%;
+}
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.removeButton{
+  margin-bottom: 20pt;
+  height:24pt
+}
+
+/* this one is a bit special, I'm style label but not button*/
+.leftButton{
+  left: 10px;
+  position: absolute;
+  margin: 0;
+  padding: 0 5px;
+  height: 24pt;
+  cursor: pointer;
+  font-size: 18pt;
+}
+
+.rightButton{
+  right: 10px;
+  position: absolute;
+  margin: 0;
+  height: 24pt;
+}

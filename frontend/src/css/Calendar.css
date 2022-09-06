@@ -1,0 +1,23 @@
+.fc .fc-button-primary{
+    background-color: #e27b7b;
+
+}
+.fc .fc-button-primary:hover:enabled{
+    background-color: #ca1c1c
+
+}
+.fc .fc-toolbar-title {
+    color: #e27b7b;
+}
+.fc-event{
+    cursor: pointer;
+}
+
+.providerSchedule {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+}

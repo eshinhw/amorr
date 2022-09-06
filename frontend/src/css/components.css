@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&display=swap');
+
+/* base styles */
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  text-decoration: auto;
+}
+a {
+  color: #333;
+}
+/* home search bar */
+
+.content {
+  max-width: 100%;
+  max-height: 600px;
+}
+
+/* provider profile*/
+.profile::placeholder {
+  color: white;
+}
+
+#home-img {
+  /* background-image: url("media/cosmetics.jpg");
+  background-size: auto; */
+  max-width: 100%;
+  /* max-height: 100%; */
+  height: 300px;
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 50px 0;
+}
+
+.service-icon {
+  background-position: center;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.home-img {
+  width: 400px;
+  background-position: center;
+}
+
+.customer-picture {
+  width: 75%;
+  align-self: center;
+}
+
+.provider-picture {
+  width: 75%;
+}
+
+.footer-social {
+  margin-bottom: 30px;
+}
+
+.footer-container {
+  background-color: #e27b7b;
+  /* max-width: 1200px; */
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  /* text-align: center; */
+}
+
+.footer-content-title {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer-links {
+  vertical-align: baseline;
+}
+
+.footer-content-container {
+  display: flex;
+  /* max-width: 1200px; */
+  /* justify-content: center; */
+  margin: 0 15%;
+  gap: 20px;
+}
+
+.footer-content-column {
+  margin-right: 50px;
+}
+
+.profileButton {
+  font-size: 14pt;
+  color: white;
+  background-color: #e27b7b;
+  border: none;
+  border-radius: 3px;
+  width: auto;
+  margin-top: 30pt;
+  height: 20pt;
+  box-shadow: 0 0 3px black;
+  margin-left: auto;
+  cursor: pointer;
+}
+.profileButton:hover {
+  background-color: #ca1c1c;
+  color: white;
+}
+.profileInfoLine {
+  border: none;
+  background-color: #e27b7b;
+  height: 20pt;
+  margin: 3pt;
+  width: calc(80% + 9pt);
+  color: white;
+  border-radius: 3pt;
+}
+.profileCard {
+  text-align: center;
+  background-color: #f0f0f0;
+  height: 100%;
+  min-width: 200pt;
+  width: 40%;
+}
+.profileBasicInfo {
+  border: none;
+  background-color: #e27b7b;
+  height: 20pt;
+  margin: 3pt;
+  width: 40%;
+  color: white;
+  border-radius: 3pt;
+}
+.profileBasicInfo::placeholder {
+  color: white;
+}
+
+.profileInfoLine::placeholder {
+  color: white;
+}
+.profilButton {
+  color: #c02121;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  width: 80pt;
+  margin-top: 25pt;
+  height: 20pt;
+  box-shadow: 0 0 3px black;
+}
+
+.displayProfileLine {
+  border: none;
+  background-color: #e27b7b;
+  height: 20pt;
+  margin: 3pt;
+  width: calc(40% + 9pt);
+  color: white;
+  border-radius: 3pt;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.displayProfile {
+  border: 0;
+  background-color: #e27b7b;
+  height: 20pt;
+  margin: 3pt;
+  width: 40%;
+  color: white;
+  border-radius: 3pt;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  position: relative;
+  top: 50%;
+}
+.displayProfileRating {
+  display: block;
+  width: 50%;
+  height: 180%;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.Form {
+  font-size: 18pt;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-bottom: 20pt;
+}
+.profile {
+  display: 'flex';
+  justify-content: 'center';
+  padding-top: '10pt';
+  padding-bottom: '30pt';
+}
+
+/* provider profile*/
+.profile::placeholder {
+  color: white;
+}
+.profileInfoLine {
+  border: none;
+  background-color: #e27b7b;
+  height: 20pt;
+  margin: 3pt;
+  width: calc(80% + 9pt);
+  color: white;
+  border-radius: 3pt;
+}
+.profileCard {
+  text-align: center;
+  background-color: #f0f0f0;
+  height: 100%;
+  min-width: 200pt;
+  width: 80%;
+  border-style: groove;
+  border-color: #e27b7b;
+  border: 1px solid red;
+}
+
+.profileCardView {
+  text-align: center;
+  background-color: #f0f0f0;
+  height: 100%;
+  min-width: 100pt;
+  width: 90%;
+  border-style: groove;
+  border-color: #e27b7b;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+}
+.provider-stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileBasicInfo {
+  border: none;
+  background-color: #e27b7b;
+  height: 20pt;
+  margin: 3pt;
+  width: 40%;
+  color: white;
+  border-radius: 3pt;
+}
+.profileBasicInfo::placeholder {
+  color: white;
+}
+
+.profileSaveButton {
+  color: #c02121;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  width: 180pt;
+  margin-top: 25pt;
+  height: 20pt;
+  box-shadow: 0 0 3px black;
+  margin-right: 10px;
+}
+.profileCancelButton {
+  color: white;
+  background-color: #c02121;
+  border: none;
+  border-radius: 2px;
+  width: 80pt;
+  margin-top: 25pt;
+  height: 20pt;
+  box-shadow: 0 0 3px black;
+  margin-left: 10px;
+}
+.profileImage {
+  height: auto;
+  width: 40%;
+  border-radius: 10px;
+}
+.profileUploadedImg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+.profileStars {
+  width: 10%;
+  height: 10%;
+  margin-right: 30px;
+}
+.profileImgDisplay {
+  display: block;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+.profileRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  /* padding: 20px 0; */
+}
+.changePassword {
+  margin-bottom: 50%;
+}
+.profileColumn {
+  padding: 30px;
+  justify-content: space-between;
+}
+.profileImgColumn {
+  height: auto;
+  width: 40%;
+}
+.appointmentButton {
+  margin-top: 10%;
+  color: white;
+  background-color: #c02121;
+  border-radius: 8px;
+  height: 30pt;
+  width: 50%;
+  border: none;
+  box-shadow: 0 0 3px black;
+}
+
+/* CSS for reservation page */
+.reservationCardView {
+  text-align: center;
+  background-color: #f0f0f0;
+  height: 100%;
+  min-width: 100pt;
+  width: 100%;
+  border-style: groove;
+  border-color: #e27b7b;
+  border: 1px solid red;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.reservationButton {
+  color: white;
+  background-color: #e27b7b;
+  border-radius: 8px;
+  height: 30pt;
+  width: 100%;
+  border: none;
+  box-shadow: 0 0 3px black;
+  padding-right: '10pt';
+  padding-top: '10pt';
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14pt;
+}
+.reservationButton:hover {
+  color: white;
+  background-color: #c02121 !important;
+  cursor: pointer;
+}
+.displayReservationButton {
+  display: flex;
+  width: 230%;
+  height: 180%;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+.reservationButtonCard {
+  text-align: center;
+  background-color: white;
+  height: 100%;
+  min-width: 100pt;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* CSS for address page */
+.address-form {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.error-message {
+  color: #c02121;
+  text-align: left;
+  margin-left: 15.5%;
+}
+
+.success-message {
+  text-align: left;
+  margin-left: 15.5%;
+}
+
+.btn {
+  color: white;
+  background-color: #e27b7b;
+  font-size: 120%;
+  border-radius: 8px;
+  padding: 1%;
+}
+.btn:hover {
+  color: white;
+  background-color: #ca1c1c !important;
+}
+
+.complete-btn {
+  color: white;
+  background-color: #e27b7b;
+  font-size: 120%;
+  border-radius: 8px;
+  /* margin-top: 32%; */
+  padding: 0.5%;
+  margin-left: 0%;
+  margin-top: 3%;
+  width: 20%;
+}
+.complete-btn:hover {
+  color: white;
+  background-color: #ca1c1c !important;
+}
+
+.form-container {
+  flex-flow: row;
+}
+
+.address-text {
+  background-color: #efbbbb80;
+  border-radius: 8px;
+  font-size: 150%;
+  width: 60%;
+  margin-right: 4%;
+  padding: 1%;
+}
+
+.feedback-message {
+  visibility: hidden;
+  text-align: left;
+}
+
+.map-container {
+  width: 80%;
+  height: 80vh;
+  min-width: auto;
+  /* text-align: center; */
+  margin-left: 10%;
+}
+
+.order-history-list {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.order-history-elem {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 25px;
+  background-color: rgb(255, 241, 241);
+  border-radius: 15px;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.order-history-elem img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.order-history-elem:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.order-history-elem-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 30px;
+  margin-right: 50px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.order-history-elem-text h3 {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.order-history-elem-text p {
+  color: #313131;
+  font-size: 16px;
+  margin-bottom: 10;
+}
+
+.order-history-elem #view-reservation {
+  height: 100%;
+  margin: auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: 0.4s;
+  padding: 12px 16px;
+  background-color: #ff7675;
+  color: white;
+  font-weight: 700;
+}
+
+.order-history-elem #view-reservation:hover {
+  background-color: #fa81b5;
+}
+
+.no-margin-bottom{
+  margin-bottom:0;
+}
+
+.dataDashboard {
+  font-size: 14pt;
+  color: white;
+  background-color: #e27b7b;
+  border: none;
+  border-radius: 3px;
+  width: auto;
+  height: 40pt;
+  box-shadow: 0 0 3px black;
+  margin-left: auto;
+  cursor: pointer;
+}
+.dataDashboard:hover {
+  color: white;
+  background-color: #c02121 !important;
+}
