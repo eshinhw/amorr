@@ -1,8 +1,10 @@
-## Motivation and Project Description
+# Amorr Ebeauty Website Project
+
+## Project Motivation
 
 The beauty service industry is already huge at the moment. However, there are still people looking for the service but cannot receive them simply because they do not have the time or ability to get access to beauty services. The intension of this project is to deliver beauty services to these people and provide convenience to the clients who are currently receiving beauty services by going to the provider.
 
-## Installation for your Software/System
+## Installation
 
 The project will take the form of a website so no installation required to use the website.<br />
 This project uses React for building the front end UI and MongoDB for the project's database. Java will be used for the project's backend
