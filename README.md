@@ -16,12 +16,6 @@ The beauty service industry is already huge at the moment. However, there are st
    <img src="https://user-images.githubusercontent.com/41933169/188777077-3c353c09-6157-4061-86d9-95197124bd46.png" width="600">
 </p>
 
-## Installation
-
-Eventually, the website will be deployed on the internet so no installation will be required to use the website.
-
-If building the project, please make sure to  in order to use or install React. 
-
 ## How to run the project in dev mode
 
 1. Install [Node](https://nodejs.org/en/download/) and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
