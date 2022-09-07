@@ -10,7 +10,7 @@ The beauty service industry is already huge at the moment. However, there are st
    <img src="https://user-images.githubusercontent.com/41933169/188775109-ae78da6d-114e-4470-9802-45e36a0383e9.png" width="400">
 </p>
 
-## External Libraries and APIs
+## External APIs and Resources
 
 <p align="center">
    <img src="https://user-images.githubusercontent.com/41933169/188777077-3c353c09-6157-4061-86d9-95197124bd46.png" width="600">
