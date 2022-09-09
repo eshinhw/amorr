@@ -1,5 +1,9 @@
 # Amorr Ebeauty Website Project
 
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/41933169/189385487-812617fd-4491-4c37-bbc2-a01b7789cb06.png" width="800"/>
+</p>
+
 ## Project Motivation
 
 The beauty service industry is already huge at the moment. However, there are still people looking for the service but cannot reach to get them simply because they do not have the time or ability to get access to various beauty services. The motivation of this project is to develop a ebeauty platform on the internet which can deliver various beauty services to these people at their places at their preferred times.
