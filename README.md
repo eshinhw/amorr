@@ -18,7 +18,7 @@ The beauty service industry is already huge at the moment. However, there are st
 
 ## How to run the project in dev mode
 
-1. Install [Node](https://nodejs.org/en/download/) and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+1. Install [node.js](https://nodejs.org/en/download/) and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 2. Run `npm install --legacy-peer-deps` in directories consisting front and back-end files (Note that this need to be done once and only once)
 3. Run `npm start` in the directory consisting the front-end files
 
