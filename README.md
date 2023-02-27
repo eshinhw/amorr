@@ -1,4 +1,4 @@
-# Amorr Ebeauty Website Project
+# Amorr Beauty Delivery Platform Project
 
 <p align="center">
    <img src="https://user-images.githubusercontent.com/41933169/189385487-812617fd-4491-4c37-bbc2-a01b7789cb06.png" width="800"/>
